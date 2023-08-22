@@ -1,0 +1,23 @@
+spring:
+ datasource:
+   url: jdbc:mysql://localhost:3306/gestion_hotel?createDatabaseIfNotExist=true&
+   username: root
+   password:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+
+ jpa:
+   database: mysql
+   show-sql: true
+   hibernate:
+    ddl-auto: update
+
+   properties:
+     hibernate:
+       dialect: org.hibernate.dialect.MySQLDialect
+       
+flickr:
+ apiKey: 38ea0cf1cf461863e80f37dfb30fba6f
+ apiSecret: 9ebc7c07d805adee
+ appKey: 72157720890690277-1c8c3a567469d570
+ appSecret: 1bbedae4949c2e6b
+
